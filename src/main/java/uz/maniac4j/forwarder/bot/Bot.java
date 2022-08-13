@@ -23,7 +23,7 @@ public class Bot extends TelegramLongPollingBot {
     @Getter
     private String botToken;
 
-    @Value("${bot.token}")
+    @Value("${bot.admin.id}")
     @Getter
     private String botAdminId;
 
